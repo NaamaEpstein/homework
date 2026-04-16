@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    direction: rtl;
+    background-color: rgb(254, 255, 248);
+}
+
+button {
+    background-color: rgb(255, 205, 205);
+    border-radius: 0.5%;
+    margin: 10px;
+    height: 40px;
+    width: 50px;
+}
+
+input {
+    background-color: rgb(255, 205, 205);
+    border-radius: 0.5%;
+    margin: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+.divim {
+    border: solid black 1px;
+    background-color: rgb(254, 210, 210);
+    height: 400px;
+    width: 90%;
+    margin: 60px;
+}
+
+#Dear,
+#text,
+#From {
+    color: black;
+}

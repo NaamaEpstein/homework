@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+
+<body>
+
+    <header id="top">
+        <span id="header"> כותרת הדף</span>
+    </header>
+    <main>
+        <div id="middleDiv">
+            <button id="alertBtn" onclick="alertMessage()">לחץ לקבלת הודעה קופצת</button>
+            <br>
+            <button id="changeHeaderBtn1" onclick="changeHeaderText()">לחץ לשינוי כיתוב כותרת</button>
+            <br>
+            <button id="changeHeaderBtn2" onclick="changeHeaderText2()">לחץ לשינוי כיתוב כותרת לכיתוב מותאם
+                אישית</button>
+            <br>
+            <button id="changeHeaderColorBtn" onclick="changeHeaderColor()">לחץ לשינוי צבע כותרת לכחול</button>
+            <br>
+            <button id="changeHeaderColorBtn2" onclick="changeHeaderColor2()">לחץ לשינוי צבע כותרת לצבע אקראי</button>
+            <br>
+            <button id="changeHeaderColorBtn3" onclick="changeHeaderColor3()">לחץ לשינוי צבע כותרת לפי בחירה</button>
+            <input type="color" id="chosenColor" />
+
+
+        </div>
+
+        <img id="pic" src="pic\Nature 210.jpg"></img>
+        <br>
+        <button id="btnChagePic" onclick="changePic()">לחץ לשינוי תמונה</button>
+    </main>
+    <footer>
+        <button onclick="click2()">לחץ</button>
+        <span id="numSpan">0</span>
+        <span>לחיצות</span>
+        <button onclick="click0()">לחץ לאיפוס</button>
+    </footer>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
